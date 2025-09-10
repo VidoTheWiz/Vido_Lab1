@@ -1760,8 +1760,9 @@ GameObject:
   - component: {fileID: 2001758318}
   - component: {fileID: 2001758317}
   - component: {fileID: 2001758316}
-  - component: {fileID: 2001758315}
   - component: {fileID: 2001758320}
+  - component: {fileID: 2001758315}
+  - component: {fileID: 2001758321}
   m_Layer: 0
   m_Name: FlashyFlash
   m_TagString: Untagged
@@ -1898,6 +1899,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &2001758321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001758314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e98aeb0df03684fa98846d041fb4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
