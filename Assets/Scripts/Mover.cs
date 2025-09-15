@@ -41,7 +41,6 @@ public class Mover : MonoBehaviour
         float xValue = Input.GetAxis("Horizontal");
         float zValue = Input.GetAxis("Vertical");
 
-        // Keep existing velocity, but update horizontal movement
         Vector3 velocity = new Vector3(xValue, 0f, zValue) * moveSpeed;
         Vector3 currentVelocity = rb.linearVelocity;
         rb.linearVelocity = new Vector3(velocity.x, currentVelocity.y, velocity.z);
