@@ -14,7 +14,7 @@ public class Mover : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true; // prevents tipping over
+        rb.freezeRotation = true; 
         PrintInstruction();
     }
 
